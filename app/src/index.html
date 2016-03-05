@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+<!-- @echo NODE_ENV -->
 <html lang="en" >
   <head>
     <!--
@@ -12,8 +13,9 @@
             -->
 
     <title>Cross Platform App - Starter App</title>
-
+ <!-- @if DEBUG -->
     <meta charset="utf-8">
+<!-- @endif -->
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <!--<meta http-equiv="Content-Security-Policy" content="default-src 'self' data: gap: https://ssl.gstatic.com 'unsafe-eval'; style-src 'self' 'unsafe-inline'; media-src *">-->
     <meta name="description" content="">
@@ -24,7 +26,6 @@
     <link rel="stylesheet" href="node_modules/angular-material/angular-material.css"/>
     <link rel="stylesheet" href="css/app.css"/>
     <link rel="stylesheet" type="text/css" href="css/index.css">
-
     <style type="text/css">
         /**
          * Hide when Angular is not yet loaded and initialized

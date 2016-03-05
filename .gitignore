@@ -1,2 +1,6 @@
-node_modules
+#File Exclusion
 *.swp
+
+#Directory Exclusion
+dist/
+node_modules/
